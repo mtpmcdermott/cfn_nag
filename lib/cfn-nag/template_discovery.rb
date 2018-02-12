@@ -17,7 +17,7 @@ class TemplateDiscovery
   private
 
   def find_templates_in_directory(directory:,
-                                  cfn_extensions: %w(json yaml yml template))
+                                  cfn_extensions: %w(yaml yml template))
 
     templates = []
     cfn_extensions.each do |cfn_extension|
